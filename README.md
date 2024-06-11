@@ -8,7 +8,7 @@ For this project, you need to log in to PostgreSQL with psql to create your data
 
 Don't forget to connect to your database after you create it 😄
 
-Here's some ideas for other column and table names: <code>description, <code>has_life</code>, <code>is_spherical</code>, <code>age_in_millions_of_years</code>, <code>planet_types</code>, <code>galaxy_types</code>, <code>distance_from_earth</code>.
+Here's some ideas for other column and table names: <code>description</code>, <code>has_life</code>, <code>is_spherical</code>, <code>age_in_millions_of_years</code>, <code>planet_types</code>, <code>galaxy_types</code>, <code>distance_from_earth</code>.
 
 Notes:
 If you leave your virtual machine, your database may not be saved. You can make a dump of it by entering <code>pg_dump -cC --inserts -U freecodecamp universe > universe.sql</code> in a bash terminal (not the psql one). It will save the commands to rebuild your database in universe.sql. The file will be located where the command was entered. If it's anything inside the project folder, the file will be saved in the VM. You can rebuild the database by entering <code>psql -U postgres < universe.sql</code> in a terminal where the .sql file is.
