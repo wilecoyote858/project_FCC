@@ -18,51 +18,28 @@ If you are saving your progress on freeCodeCamp.org, after getting all the tests
 
 Complete the tasks below
 <ul>
-<li>You should create a database named <code>universe</code>.</li>
-
-<li>Be sure to connect to your database with <code>\c universe</code>. Then, you should add tables named galaxy, star, planet, and moon.</li>
-
-<li>Each table should have a primary key.</li>
-
-<li>Each primary key should automatically increment.</li>
-
-<li>Each table should have a <code>name</code> column.</li>
-
-<li>You should use the <code>INT</code> data type for at least two columns that are not a primary or foreign key.</li>
-
-<li>You should use the <code>NUMERIC</code> data type at least once.</li>
-
-<li>You should use the <code>TEXT</code> data type at least once.</li>
-
-<li>You should use the <code>BOOLEAN</code> data type on at least two columns.</li>
-
-<li>Each "star" should have a foreign key that references one of the rows in <code>galaxy</code>.</li>
-
-<li>Each "planet" should have a foreign key that references one of the rows in <code>star</code>.</li>
-
-<li>Each "moon" should have a foreign key that references one of the rows in <code>planet</code>.</li>
-
-<li>Your database should have at least five tables.</li>
-
-<li>Each table should have at least three rows.</li>
-
-<li>The <code>galaxy</code> and <code>star</code> tables should each have at least six rows.</li>
-
-<li>The <code>planet</code> table should have at least 12 rows.</li>
-
-<li>The <code>moon</code> table should have at least 20 rows.</li>
-
-<li>Each table should have at least three columns.</li>
-
-<li>The <code>galaxy</code>, <code>star</code>, <code>planet</code>, and <code>moon</code> tables should each have at least five columns.</li>
-
-<li>At least two columns per table should not accept <code>NULL</code> values.</li>
-
-<li>At least one column from each table should be required to be <code>UNIQUE</code>.</li>
-
-<li>All columns named name should be of type <code>VARCHAR</code>.</li>
-
-<li>Each primary key column should follow the naming convention <code>table_name_id</code>. For example, the <code>moon</code> table should have a primary key column named <code>moon_id</code>.</li>
-
-<li>Each foreign key column should have the same name as the column it is referencing.</li>
+  <li>You should create a database named <code>universe</code>.</li>
+  <li>Be sure to connect to your database with <code>\c universe</code>. Then, you should add tables named galaxy, star, planet, and moon.</li>
+  <li>Each table should have a primary key.</li>
+  <li>Each primary key should automatically increment.</li>
+  <li>Each table should have a <code>name</code> column.</li>
+  <li>You should use the <code>INT</code> data type for at least two columns that are not a primary or foreign key.</li>
+  <li>You should use the <code>NUMERIC</code> data type at least once.</li>
+  <li>You should use the <code>TEXT</code> data type at least once.</li>
+  <li>You should use the <code>BOOLEAN</code> data type on at least two columns.</li>
+  <li>Each "star" should have a foreign key that references one of the rows in <code>galaxy</code>.</li>
+  <li>Each "planet" should have a foreign key that references one of the rows in <code>star</code>.</li>
+  <li>Each "moon" should have a foreign key that references one of the rows in <code>planet</code>.</li>
+  <li>Your database should have at least five tables.</li>
+  <li>Each table should have at least three rows.</li>
+  <li>The <code>galaxy</code> and <code>star</code> tables should each have at least six rows.</li>
+  <li>The <code>planet</code> table should have at least 12 rows.</li>
+  <li>The <code>moon</code> table should have at least 20 rows.</li>
+  <li>Each table should have at least three columns.</li>
+  <li>The <code>galaxy</code>, <code>star</code>, <code>planet</code>, and <code>moon</code> tables should each have at least five columns.</li>
+  <li>At least two columns per table should not accept <code>NULL</code> values.</li>
+  <li>At least one column from each table should be required to be <code>UNIQUE</code>.</li>
+  <li>All columns named name should be of type <code>VARCHAR</code>.</li>
+  <li>Each primary key column should follow the naming convention <code>table_name_id</code>. For example, the <code>moon</code> table should have a primary key column named  <code>moon_id</code>.</li>
+  <li>Each foreign key column should have the same name as the column it is referencing.</li>
 </ul>
