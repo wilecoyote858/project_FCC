@@ -27,42 +27,42 @@ Each table should have a primary key
 
 Each primary key should automatically increment
 
-Each table should have a name column
+Each table should have a <code>name</code> column
 
-You should use the INT data type for at least two columns that are not a primary or foreign key
+You should use the <code>INT</code> data type for at least two columns that are not a primary or foreign key
 
-You should use the NUMERIC data type at least once
+You should use the <code>NUMERIC</code> data type at least once
 
-You should use the TEXT data type at least once
+You should use the <code>TEXT</code> data type at least once
 
-You should use the BOOLEAN data type on at least two columns
+You should use the <code>BOOLEAN</code> data type on at least two columns
 
-Each "star" should have a foreign key that references one of the rows in galaxy
+Each "star" should have a foreign key that references one of the rows in <code>galaxy</code>
 
-Each "planet" should have a foreign key that references one of the rows in star
+Each "planet" should have a foreign key that references one of the rows in <code>star</code>
 
-Each "moon" should have a foreign key that references one of the rows in planet
+Each "moon" should have a foreign key that references one of the rows in <code>planet</code>
 
 Your database should have at least five tables
 
 Each table should have at least three rows
 
-The galaxy and star tables should each have at least six rows
+The <code>galaxy</code> and <code>star</code> tables should each have at least six rows
 
-The planet table should have at least 12 rows
+The <code>planet</code> table should have at least 12 rows
 
-The moon table should have at least 20 rows
+The <code>moon</code> table should have at least 20 rows
 
 Each table should have at least three columns
 
-The galaxy, star, planet, and moon tables should each have at least five columns
+The <code>galaxy</code>, <code>star</code>, <code>planet</code>, and <code>moon</code> tables should each have at least five columns
 
-At least two columns per table should not accept NULL values
+At least two columns per table should not accept <code>NULL</code> values
 
-At least one column from each table should be required to be UNIQUE
+At least one column from each table should be required to be <code>UNIQUE</code>
 
-All columns named name should be of type VARCHAR
+All columns named name should be of type <code>VARCHAR</code>
 
-Each primary key column should follow the naming convention table_name_id. For example, the moon table should have a primary key column named moon_id
+Each primary key column should follow the naming convention <code>table_name_id</code>. For example, the <code>moon</code> table should have a primary key column named <code>moon_id</code>
 
 Each foreign key column should have the same name as the column it is referencing
